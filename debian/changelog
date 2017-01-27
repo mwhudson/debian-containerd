@@ -1,3 +1,9 @@
+containerd (0.2.5-0ubuntu2~16.04.1) xenial; urgency=medium
+
+  * Backport to Xenial. (LP: #1655906)
+
+ -- Michael Hudson-Doyle <michael.hudson@ubuntu.com>  Fri, 27 Jan 2017 13:42:04 +1300
+
 containerd (0.2.5-0ubuntu1) zesty; urgency=medium
 
   * Update to 0.2.5 upstream release (LP: #1655906)
