@@ -1,3 +1,13 @@
+containerd (1.2.5-0ubuntu1~16.04.1) UNRELEASED; urgency=medium
+
+  * Backport to Xenial.
+  * Build with golang-1.10-go.
+  * Build depend on btrfs-tools, not libbtrfs-dev or btrfs-progs.
+  * Re-add Build-Depends: on dh-systemd
+  * Disable race testing as go 1.10 race runtime not yet present in Xenial.
+
+ -- Michael Hudson-Doyle <michael.hudson@ubuntu.com>  Fri, 15 Mar 2019 11:21:10 +1300
+
 containerd (1.2.5-0ubuntu1) disco; urgency=medium
 
   * New upstream release.
