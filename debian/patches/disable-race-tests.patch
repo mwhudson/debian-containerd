@@ -1,0 +1,11 @@
+--- a/Makefile.linux
++++ b/Makefile.linux
+@@ -20,8 +20,3 @@
+ ifeq ($(GOOS),linux)
+ 	GO_GCFLAGS += -buildmode=pie
+ endif
+-
+-# amd64 supports go test -race
+-ifeq ($(GOARCH),amd64)
+-	TESTFLAGS_RACE= -race
+-endif
