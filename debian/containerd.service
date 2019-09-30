@@ -6,6 +6,8 @@ After=network.target
 [Service]
 ExecStartPre=-/sbin/modprobe overlay
 ExecStart=/usr/bin/containerd
+RestartSec=2
+Restart=always
 
 Delegate=yes
 KillMode=process
