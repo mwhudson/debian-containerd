@@ -20,5 +20,7 @@ LimitNOFILE=infinity
 # Only systemd 226 and above support this version.
 TasksMax=infinity
 
+OOMScoreAdjust=-999
+
 [Install]
 WantedBy=multi-user.target
