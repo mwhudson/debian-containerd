@@ -1,3 +1,10 @@
+containerd (1.2.10-0ubuntu1~18.04.0.1) UNRELEASED; urgency=medium
+
+  * Add Restart=always to the containerd service.
+  * Set the containerd OOM adjustment level to -999.
+
+ -- Michael Hudson-Doyle <michael.hudson@ubuntu.com>  Tue, 01 Oct 2019 11:32:18 +1300
+
 containerd (1.2.10-0ubuntu1~18.04.0) bionic; urgency=medium
 
   * Backport to Bionic.
